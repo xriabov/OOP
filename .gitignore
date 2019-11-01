@@ -1,7 +1,16 @@
+
+# Ignores mac executables
+*
+!*.*
+!/*
+
+# Ignores other executables
 *.exe
 *.out
 *.app
 
+# Obj files
 *.o
 
+# Libs
 *.dll
