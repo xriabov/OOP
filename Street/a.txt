@@ -1,0 +1,4 @@
+FamilyHouse - num, 		floors, house area(double), garden area(double)
+Apartments  - num, 		floors, number of flats(int)
+Offices	    - num(int), floors(int), employees(int), daily return(double), departments(int)
+Fabric  	- num,      floors, 	 employees, 	 daily return, working area

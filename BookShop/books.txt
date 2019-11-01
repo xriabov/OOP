@@ -1,0 +1,23 @@
+5
+0
+The Lord of the Rings: The Fellowship of the Ring
+J. R. R. Tolkien
+12
+1
+Fight Club
+Chuck Palahniuk
+9
+2
+The Master and Margarita
+Michail Bulgakov
+14
+3
+The Call of Cthulhu
+H.P. Lovecraft
+8
+4
+Inferno
+Dante Alighieri
+10
+
+
