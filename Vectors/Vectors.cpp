@@ -211,12 +211,11 @@ class Polygon3D
             for(int i = 0; i < vectLen; i++)
                 vectors[i] = vectors[i] + vect[i];
         }
-        Polygon3D(Polygon3D &poly): Polygon3D(poly.VectLen(), poly.Vectors()) {}
         ~Polygon3D() { delete[] vectors; }
 
         Polygon3D operator = (Polygon3D &poly)
         {
-            Polygon3D out(poly);
+            Polygon3D out(poly.VectLen(), poly.Vectors());
             return out;
         }
 
@@ -254,8 +253,6 @@ int main()
     vect[1] = Vector2D(10,0);
     vect[2] = Vector2D(10,1);
     vect[3] = Vector2D(0,1);
-
-    Polygon2d p1()
 
 
     Polygon2D poly(4, vect);
